@@ -1,0 +1,94 @@
+body {
+  background: gray;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 30px;
+  min-width: 800px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+}
+
+h2, h3, h6 {
+  text-align: center;
+}
+
+.info {
+  font-size: 2rem;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  background: purple;
+}
+
+.icon-container div {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  font-size: 2rem;
+}
+
+.closed {
+  background: #777;
+}
+
+.open {
+  background: #222;
+}
+
+.player {
+  background: purple;
+}
+
+.health {
+  background: Lime;
+}
+
+.damage {
+  background: OliveDrab;
+}
+
+.bat {
+  background: OrangeRed;
+}
+
+.enemy {
+  background: OrangeRed;
+}
+
+.boss {
+  background: Maroon;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.alert {
+  margin-top: 30px;
+}
+
+.max-width {
+  float: left;
+}
+
+.true {
+  background: black !important;
+}
